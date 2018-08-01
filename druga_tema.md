@@ -1,6 +1,6 @@
 ---
 layout: page
-title: druga tema
+title: Druga tema
 ---
 
 Ovo je druga stranica o drugoj temi.
