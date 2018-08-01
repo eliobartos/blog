@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /blog/about.md
 ---
 
 <p class="message">
