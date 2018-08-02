@@ -8,3 +8,5 @@ $x^2$ Ovo je pokušaj formule.
 
 
 $$ p(H|D) = \frac{p(D|H)p(H)}{p(D)} $$
+
+Radi!!
