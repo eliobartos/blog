@@ -4,39 +4,18 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hi! My name is Elio. I'm mathematician interested in statistics, data science and gaming. Welcome to my blog!
 </p>
 
-<p class="highlight">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+### Professional Interests
 
- <div class="row">
-    <div class="col-sm-8">Jako puno teksta jako puno teksta.Jako puno teksta jako puno teksta.Jako puno teksta jako puno teksta.Jako puno teksta jako puno teksta.Jako puno teksta jako puno teksta.Jako puno teksta jako puno teksta.Jako puno teksta jako puno teksta.Jako puno teksta jako puno teksta.Jako puno teksta jako puno teksta.Jako puno teksta jako puno teksta.Jako puno teksta jako puno teksta.Jako puno teksta jako puno teksta.Jako puno teksta jako puno teksta.Jako puno teksta jako puno teksta.</div>
-    <div class="col-sm-4">
-        <img src="/blog/images/me.jpg" alt="me" width="200"/>
-    </div>
-  </div>
-  
+* **statistics** - especially Bayesian statistics which I find more intuitive and more appropriate that frequentistic methods.
+* **data analytics** - whether using R, SQL or creting awesome dashboards in Shiny or Tableau, understanding what is going on is like being a detective searching for answers. What has happened and why? 
+* **predictive modelling** - many machine learning models come from statistics and have mathematical background and I found them very interesting.
+* **presenting results** - this is very important step because if you are unable to pass your results to others, what you did won't make a difference. I often reflect on how I presented results and how to improve it.
+* **creating game economy** - creating how things will be generated and calculated in the game is a perfect job for a mathematician. Setting up probabilites and other parameters whether in a video or a board game is a challenging, but very entertaining thing to do. 
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+### Other Interests
+I love playing table tennis, football and beach volleyball. I love singing and playing guitar, especially songs by the three  musketeers of music: Bob Dylan, Bruce Springsteen and Tom Waits.
 
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+I also love playing and creating board games. Since I was a kid I was always cutting paper, writing cards, taking figures and dices from other games while trying to create my own board. And when I learned a little bit of programming in QBasic I immediately wanted to make a game. Currently I enjoy playing Hero Realms, Star Wars: X-Wing and King of Tokyo. I highly recommend you to try them!
