@@ -563,10 +563,3 @@ a.pagination-item:hover {
 }
 
 
-/* My Code*/
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 65%;
-}
