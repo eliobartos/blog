@@ -6,7 +6,7 @@ title: R package misc&#58; For everyday analyses!
 ## Summary
 I wrote my first R package that contains some useful functions I use on a daily basis. I got tired of loading them in my working environment every time so I decided to make an R package. Here is a summary of the functions version 0.1.0 contains:
 
-* [`write_excel`](#write_excel) - copies data frame to clipboard which makes it easy to copy data, e.g. to Excel
+* [`write_excel`](#write_excel) - copies data frame to clipboard which makes copying data easy, e.g. to Excel
 * [`parametrized_query`](#parametrized_query) - parametrize SQL query.
 * [`analyse_var`](#analyse_var) - analyse variable depending on AB test group
 * [`np_mean_test`](#np_mean_test) - non-parametric bootstrap test of mean
@@ -93,13 +93,10 @@ df <- tribble(
  4.7, 2
 )
 ```
-It contains data for some measurement `x` for two different groups. Function `analyse_var` quickly analyses variable `x` by groups in column `group`. It returns the following graphs and tables.
+It contains data for some measurement `x` for two different groups. Function `analyse_var` quickly analyses variable `x` by groups in column `group`. It returns one graph and two tables.
 
 <img src="/blog/images/r-package-misc/analyse_var_mean.png" alt="analyse_var_mean" class="center"/>
-First graph plots mean by groups with confidence interval. Default is 90%.
-
-<img src="/blog/images/r-package-misc/analyse_var_density.png" alt="analyse_var_density" class="center"/>	
-Second graph plots density for both groups. When you have more data in each group this looks better.
+Graph plots mean by groups with confidence interval. Default is 90%.
 
 ```
 $`quant_data`
@@ -116,7 +113,7 @@ $mean_data
 1      1 2.425000 1.0144785 0.5072393 1.590666 3.259334
 2      2 5.233333 0.6806859 0.3929942 4.586915 5.879751
 ```
-And finally we get two tables. First one is an easy way to compare quantiles. Second one is basically data that is in the first graph, showing mean, standard error and confidence intervals.
+We also get two tables. First one is an easy way to compare quantiles. Second one is basically data that is in the graph, showing mean, standard error and confidence intervals.
 
 <a name="split_per_group"></a>
 ### split_per_group
@@ -168,9 +165,9 @@ Function returns p-value, number of simulations it ran, observed difference and 
 
 Plot shows observed difference and 95% confidence interval for differences. If observed difference is outside you can be a little more sure that there is some difference between groups. 
 
-I don't use this function for rigorous statistical testing. Often when doing analyses you think of some metrics that represent how good a certain group is. But these metrics can be completely made up and hard to explain which difference between groups is big or small. Then I use this test to get some idea is the difference real or not. I also explore different statistics because often distributions are very skewed. Think of for example amount of time someone spends on your web site, or amount of money people spend. I use this to explore.
+I don't use this function for rigorous statistical testing. Often when doing analyses you think of some metrics that represent how good a certain group is. But these metrics can be completely made up and hard to explain which difference between groups is big or small. Then I use this test to get some idea is the difference real or not. I also explore different statistics because often distributions are very skewed. Think of for example amount of time someone spends on your web site, or amount of money people spend. I use this function to explore.
 
-First version of this function was `np_mean_test` which did the same thing for calcuating the mean. But then I realised, why not do this for any statistics of interest. Then `np_stat_test` was born.
+First version of this function was `np_mean_test` which did the same thing for calcuating the mean. But then I realised, why not do this for any statistics of interest. Then `np_stat_test` was born. I don't plan on updating `np_mean_test` function.
 
 <a name="get_value"></a>
 ### get_value
@@ -191,6 +188,6 @@ get_value(df, 2)           # returns 1
 get_value(df, 2, "linear") # returns 2
 ```
 
-I actually won't tell you why I wrote this function but I use it very often when doing some simulations, when I'm trying to set some parameters or model something.
+I won't tell you why I wrote this function but I use it very often when doing some simulations, when I'm trying to set some parameters or model something.
 
 Thanks for reading! I hope you find some of these functions useful in your own work!
